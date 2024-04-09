@@ -10,7 +10,7 @@ def euclid(a1, b):
         mya = myb
         myb = r
     return mya
-# Euclid's algorithm function to avoid import math then math.gcd
+# Euclid's algorithm to avoid importing math for gcd function
 
 n = open('PrimeList.csv', 'r')
 # File of primes up to 10^7
@@ -34,3 +34,5 @@ while d == 1:
     print("d =", d)
 print("First factor is", d)
 print("Second factor is", int(n/d))
+# Chose to output for each iteration as initially I had primes up to 10^8, which ended up being too big to upload
+# and outputting each step made sure i knew the code was indeed running as it sometimes took upwards of 5 minutes.

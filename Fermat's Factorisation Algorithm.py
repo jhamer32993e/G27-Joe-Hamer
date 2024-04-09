@@ -32,4 +32,5 @@ print("Initial primes:", p1, p2)
 # printing initial primes again as if the chosen primes are large enough there is too
 # much output to see the first print
 print(steps, "iterations")
-# Reference my code for generating the list of primes, need to adapt to write to a csv
+# Chose to output for each iteration as initially I had primes up to 10^8, which ended up being too big to upload
+# and outputting each step made sure i knew the code was indeed running as it sometimes took upwards of 5 minutes.
