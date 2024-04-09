@@ -2,7 +2,7 @@ import random
 import math
 
 n = open('PrimeList.csv', 'r')
-# File of primes up to 10^8
+# File of primes up to 10^7
 Lines = n.readlines()
 # Choose 2 random primes for factorisation
 p1 = int(Lines[random.randint(1, len(Lines))])
