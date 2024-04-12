@@ -1,0 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: G-27 Cryptography Code
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Joseph
+    family-names: Hamer
+    email: hhx502@york.ac.uk
+    affiliation: University of York
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/jhamer32993e/G27-Joe-Hamer/tree/main
